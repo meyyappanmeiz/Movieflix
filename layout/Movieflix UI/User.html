@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Movie Flix</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/Style.css" />
+  <link rel="stylesheet" href="css/Main.css" />
+ 
+</head>
+
+<body>
+<div id="slideBar" >
+  <img style="float:left; " src="img/logo.png" align-items="flex-start" alt="logo" width="200"/>
+  <div class="topNaviagationLink"><a href="Homepage.html">Home</a></div>
+  <div class="topNaviagationLink"><a href="Searchcatalog.html">Search</a></div>
+  <div class="topNaviagationLink"><a href="Filter.html">SortList</a></div>
+  <div class="topNaviagationLink"><a href="Insertmovie.html">AddtoView</a></div>
+  <div class="topNaviagationLink"><a href="Homepage.html">SignOut</a></div>
+
+</div>
+
+
+<div id="bg">
+
+  <img src="img/images.jpe"  width="100%" height="600">
+  </br>
+  <div    class="col-md-9 col-md-offset-3" >
+
+    <div class="groupHeader">
+      <div>
+
+
+        <form name="addUserForm">
+
+          <div class="form-group">
+            <label class = "alignform" for="firstName">First Name</label>
+            <input type="text"  class="form-control" id="firstName" placeholder="Your FirstName">
+
+          </div>
+          <div class="form-group">
+            <label class = "alignform" for="lastName">Last Name</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Your LastName">
+          </div>
+          <div class="form-group">
+            <label class = "alignform" for="email">Email</label>
+            <input type="email" name="email" required class="form-control" id="email" placeholder="example@domain.com">
+            
+            <div class="form-group">
+              <label class = "alignform" for="password">Password</label>
+              <input type="password" name="password" required class="form-control" id="password" placeholder="password">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Add User</button>
+        </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+</body>
+
+</html>
